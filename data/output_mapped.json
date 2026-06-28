@@ -1,0 +1,56 @@
+{
+    "mapped_transactions": [
+        {
+            "tx_id": "KOINX-TX-0000",
+            "event_time": "2026-03-01T10:00:00Z",
+            "token": "BTC",
+            "volume": 0.05,
+            "fiat_equivalent_inr": 250000,
+            "regulatory_action": "Non-Taxable Setup",
+            "estimated_tax_inr": 0.0,
+            "tds_withheld_inr": 0.0
+        },
+        {
+            "tx_id": "KOINX-TX-0001",
+            "event_time": "2026-04-15T14:30:00Z",
+            "token": "BTC",
+            "volume": 0.02,
+            "fiat_equivalent_inr": 120000,
+            "regulatory_action": "Taxable Event",
+            "estimated_tax_inr": 35910.0,
+            "tds_withheld_inr": 1200.0
+        },
+        {
+            "tx_id": "KOINX-TX-0002",
+            "event_time": "2026-05-20T09:15:00Z",
+            "token": "ETH",
+            "volume": 1.5,
+            "fiat_equivalent_inr": 450000,
+            "regulatory_action": "Non-Taxable Setup",
+            "estimated_tax_inr": 0.0,
+            "tds_withheld_inr": 0.0
+        },
+        {
+            "tx_id": "KOINX-TX-0003",
+            "event_time": "2026-06-01T18:00:00Z",
+            "token": "SOL",
+            "volume": 5.0,
+            "fiat_equivalent_inr": 75000,
+            "regulatory_action": "Income Event",
+            "estimated_tax_inr": 22500.0,
+            "tds_withheld_inr": 0.0
+        }
+    ],
+    "search_entity_schema": {
+        "@context": "https://schema.org",
+        "@type": "FinancialService",
+        "@id": "https://www.koinx.com/in/#organization",
+        "name": "KoinX",
+        "url": "https://www.koinx.com/in",
+        "description": "Automated crypto tax software built for Indian regulatory compliance.",
+        "serviceType": [
+            "Crypto Tax Calculation",
+            "TDS Tracking"
+        ]
+    }
+}
