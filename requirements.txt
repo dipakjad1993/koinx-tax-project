@@ -108,7 +108,7 @@ rpds-py==2026.5.1
 safetensors==0.8.0
 scikit-learn==1.9.0
 scipy==1.18.0
-spacy>=3.7.0
+Scrapy==2.16.0
 service-identity==26.1.0
 setuptools==82.0.1
 shellingham==1.5.4
